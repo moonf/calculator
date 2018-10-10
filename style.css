@@ -3,17 +3,8 @@
   padding: 0;
 }
 
-.wrapper {
-  /* max-width: 320px; */
-}
-
 .buttons {
   display: grid;
   grid-template-columns: 50px 50px 50px 50px;
   grid-gap: 5px;
-}
-
-.buttons button {
-  margin: 3px;
-  width: 100%;
 }
