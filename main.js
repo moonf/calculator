@@ -12,7 +12,8 @@ buttons.forEach(button => {
       res += button.innerText
       result.innerText = res
     } else {
-      result.innerText = eval(res)
+      res = eval(res)
+      result.innerText = res
     }
   })
 })
